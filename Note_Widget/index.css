@@ -1,0 +1,40 @@
+body {
+    min-width: 400px;
+    min-height: 400px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#input-el {
+    width: 100%;
+    height: 90%;
+    background-color: wheat;
+    /*background-image: url("./note_background.png");*/
+    border: transparent;
+    outline-color: transparent;
+    columns: 30;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+#upload-btn {
+    width: 33.333%;
+    height: 10%;
+    border: none;
+    border-radius: 0px 0px 10px 0px;
+}
+
+#clear-btn {
+    width: 33.333%;
+    height: 10%;
+    border-top: none;
+    border-bottom: none;
+}
+
+#save-btn {
+    width: 33.333%;
+    height: 10%;
+    border: none;
+    border-radius: 0px 0px 0px 10px;
+}
